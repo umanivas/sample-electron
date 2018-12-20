@@ -4,12 +4,15 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^2.0.7"
+    "electron": "^2.0.7",
+    "mocha": "^5.2.0",
+    "spectron": "^5.0.0"
   }
 }
